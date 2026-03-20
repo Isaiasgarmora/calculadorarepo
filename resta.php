@@ -6,10 +6,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     if (isset($numero1) && isset($numero2) && is_numeric($numero1) && is_numeric($numero2)) {
         
-        // Realizar la resta
         $resultado = $numero1 - $numero2;
         
-        // Devolver el resultado
         echo "Resultado: " . $numero1 . " - " . $numero2 . " = " . $resultado;
         
     } else {
@@ -19,4 +17,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo "Error: Método de petición no válido";
 }
-?>
+?>c
