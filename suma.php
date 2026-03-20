@@ -4,10 +4,10 @@ if ($_POST) {
     $num2 = $_POST['num2'];
 
     $suma = $num1 + $num2;
-    $multiplicacion = $num1 * $num2;
+   
 
     echo "Suma: $suma <br>";
-    echo "Multiplicación: $multiplicacion";
+   
 }
 ?>
 
